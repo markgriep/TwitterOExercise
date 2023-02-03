@@ -1,6 +1,16 @@
 # TwitterOExercise
 
-Directions:
+##My Steps
+1. Get Twitter API working in Postman
+2. Get Twitter API working in code
+3. TBD
+
+
+
+
+
+
+##Directions:
 programming exercise 
 
 No time limit
