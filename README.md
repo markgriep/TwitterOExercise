@@ -1,6 +1,7 @@
 # TwitterOExercise
 
 ##Solution Steps
+
 :white_check_mark: Get Twitter API working in Postman
   Logon to dev.twitter.  Generate a bearer token, use it as a sanity check to see if you can get any old tweet(s).
   e.g. https://api.twitter.com/2/tweets?ids=1622410145849376768,1622023657370406914
@@ -10,8 +11,8 @@
 
 
 
-2. Get Twitter API working in code
-3. TBD
+:white_large_square: Get Twitter API working in code
+:white_large_square: TBD
 
 
 
