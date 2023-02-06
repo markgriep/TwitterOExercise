@@ -9,11 +9,17 @@
 :white_large_square: Get the specific twitter API working in Postman. 
   *"sampled stream endpoint provides a random sample of approximately 1% of the full tweet stream."*
 
+
+
 :white_large_square: Get Twitter API working in code
 
 :white_large_square: TBD
 
 
+
+
+:squared_sos: HELP  :squared_sos:
+https://youtu.be/FZ819Vxb85A?t=647
 
 
 
