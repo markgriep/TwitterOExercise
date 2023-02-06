@@ -25,6 +25,8 @@
 
 Authentication: https://youtu.be/FZ819Vxb85A?t=647
 
+Hmmm.  Am I allowed to use any nuget packages to assist or should this be all coded by me?
+such as Tweetinvi
 
 ---
 
