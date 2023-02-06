@@ -10,10 +10,7 @@
   *"sampled stream endpoint provides a random sample of approximately 1% of the full tweet stream."*
   https://api.twitter.com/2/tweets/sample/stream?tweet.fields=context_annotations,lang
 
-
-
 :white_large_square: How to get a handle on the stream, v1. just show the stream to the screen.
-
 
 :white_large_square: Get Twitter API working in code
 
@@ -22,12 +19,14 @@
 
 
 
+---
+
 :sos: HELP  :sos:
 
 Authentication: https://youtu.be/FZ819Vxb85A?t=647
 
 
-
+---
 
 ## Directions:
 
