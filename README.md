@@ -1,6 +1,6 @@
 # TwitterOExercise
 
-##Solution Steps
+## Solution Steps
 
 :white_check_mark: Get Twitter API working in Postman
   Logon to dev.twitter.  Generate a bearer token, use it as a sanity check to see if you can get any old tweet(s).
@@ -9,9 +9,8 @@
 :white_large_square: Get the specific twitter API working in Postman. 
   **"sampled stream endpoint provides a random sample of approximately 1% of the full tweet stream."**
 
-
-
 :white_large_square: Get Twitter API working in code
+
 :white_large_square: TBD
 
 
@@ -19,7 +18,9 @@
 
 
 
-##Directions:
+## Directions:
+
+```
 programming exercise 
 
 No time limit
@@ -57,6 +58,6 @@ The Twitter API v2 sampled stream endpoint provides a random sample of approxima
 •	Give provide guidance as to where the Twitter API Token is
 •	We may follow-up with an interview session
  
-
+```
  
 
