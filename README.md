@@ -7,7 +7,7 @@
   e.g. https://api.twitter.com/2/tweets?ids=1622410145849376768,1622023657370406914
 
 :white_large_square: Get the specific twitter API working in Postman. 
-  **"sampled stream endpoint provides a random sample of approximately 1% of the full tweet stream."**
+  *"sampled stream endpoint provides a random sample of approximately 1% of the full tweet stream."*
 
 :white_large_square: Get Twitter API working in code
 

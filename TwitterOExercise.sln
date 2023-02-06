@@ -10,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwitterApi", "TwitterApi", "{40E6703C-2D12-4496-A26A-116926CDB89E}"
+	ProjectSection(SolutionItems) = preProject
+		TwitterAPI.cs = TwitterAPI.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40E6703C-2D12-4496-A26A-116926CDB89E} = {6AF57F19-53A0-4437-B419-7910063CE7C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC1A74D7-7D77-46C6-95A1-9BE52B9BFD37}
