@@ -18,8 +18,9 @@
 
 
 
-:squared_sos: HELP  :squared_sos:
-https://youtu.be/FZ819Vxb85A?t=647
+:sos: HELP  :sos:
+
+Authentication: https://youtu.be/FZ819Vxb85A?t=647
 
 
 
