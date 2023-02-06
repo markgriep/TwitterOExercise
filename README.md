@@ -9,12 +9,22 @@
 :white_check_mark: Get the specific twitter API working in Postman. 
   *"sampled stream endpoint provides a random sample of approximately 1% of the full tweet stream."*
   https://api.twitter.com/2/tweets/sample/stream?tweet.fields=context_annotations,lang
+  Specifically: curl -X GET "https://api.twitter.com/2/tweets/sample/stream?tweet.fields=lang" -H "Authorization: Bearer XXX...wlf"
 
-:white_large_square: How to get a handle on the stream, v1. just show the stream to the screen.
+:white_check_mark: How to get a handle on the stream, v1. just show the stream to the screen.
+Implmented some code to get the stream and just write it to the screen.
 
-:white_large_square: Get Twitter API working in code
+:white_check_mark: Get Twitter API working in code
+see above.
 
-:white_large_square: TBD
+
+:white_large_square: Get token stored locally
+
+
+:white_large_square: Parse out data from stream
+
+
+:white_large_square: Decide where/how to store statistics.  Probably some sort of object. Perhaps list of objects?
 
 
 
