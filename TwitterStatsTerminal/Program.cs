@@ -2,11 +2,16 @@
 using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Text;
+using Microsoft.Extensions.Configuration;
 
 namespace TwitterStatsTerminal
 {
     internal class Program
     {
+
+
+
+
 
         //public static async Task Main(string[] args)
         //{
@@ -19,8 +24,20 @@ namespace TwitterStatsTerminal
 
         public static async Task Main(string[] args)
         {
+
+
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var Setting = config.GetSection("Settings").GetSection("bearerToken");
+
+
+            Console.WriteLine(Setting);
+
+
             var client = new HttpClient();
-            var token = "AAA...wlf";   // placeholder for token
+            var token = Setting.Value;//  "AAA...wlf";   // placeholder for token
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var request = new HttpRequestMessage(HttpMethod.Get, "https://api.twitter.com/2/tweets/sample/stream?tweet.fields=context_annotations,lang");
             using (var stream = await client.GetStreamAsync(request.RequestUri))
